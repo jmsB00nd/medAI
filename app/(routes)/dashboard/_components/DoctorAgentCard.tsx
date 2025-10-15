@@ -25,9 +25,9 @@ function DoctorAgentCard({doctorAgent} : props) {
                 height={300} 
                 className="w-full h-[250px] object-cover rounded-xl"
                 />
-                <h2 className="font-bold mt-1">{doctorAgent.specialist}</h2>
-                <p className="line-clamp-2 text-sm text-gray-500">{doctorAgent.description}</p>
-                <Button className="w-full mt-2">Start Consultation <IconArrowRight/> </Button>
+            <h2 className="font-bold mt-1">{doctorAgent.specialist}</h2>
+            <p className="line-clamp-2 text-sm text-gray-500">{doctorAgent.description}</p>
+            <Button className="w-full mt-2">Start Consultation <IconArrowRight/> </Button>
         </div>
     )
 }
